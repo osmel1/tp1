@@ -10,7 +10,7 @@ public class MetierImpl implements IMetier{
     public double calcul() {
         // Implémentation de la méthode calcul en utilisant IDao
         double temp = dao.getDate()*2;
-        System.out.println("MetierImpl.calcul() appelé !");
+        System.out.println("MetierImpl.calcul() appelé !!!");
         return temp;
     }
 
